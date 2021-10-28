@@ -1,0 +1,30 @@
+::selection {
+  background: hotpink;
+  color: black;
+}
+
+:root {
+  color: mistyrose;
+  background: darkviolet;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: #70a;
+  }
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    color: pink;
+  }
+}
+
+:any-link {
+  color: lightsalmon;
+}
+
+mark {
+  color: black;
+  background: salmon;
+}

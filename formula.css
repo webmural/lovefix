@@ -1,0 +1,23 @@
+html {
+  font-family: monospace;
+  font-size: calc(1ex + 8vmax);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+figure {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: auto;
+  min-height: 100vh;
+}
+
+var {
+  font-style: inherit;
+}
