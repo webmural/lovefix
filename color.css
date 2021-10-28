@@ -1,30 +1,30 @@
 ::selection {
-  background: hotpink;
-  color: black;
+  background: darkviolet;
+  color: gold;
 }
 
 :root {
-  color: mistyrose;
-  background: darkviolet;
+  color: #200222;
+  background: skyblue;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background: #70a;
+    background: deepskyblue;
   }
 }
 
 @media (prefers-contrast: less) {
   :root {
-    color: pink;
+    color: #33113d;
   }
 }
 
 :any-link {
-  color: lightsalmon;
+  color: indigo;
 }
 
 mark {
-  color: black;
-  background: salmon;
+  color: #11111d;
+  background: mediumseagreen;
 }
