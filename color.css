@@ -22,6 +22,7 @@
 
 :any-link {
   color: indigo;
+  text-decoration-style: dotted;
 }
 
 mark {
