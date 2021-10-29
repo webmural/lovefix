@@ -18,6 +18,12 @@ figure {
   min-height: 100vh;
 }
 
+@media (orientation: portrait) {
+  figure {
+    writing-mode: vertical-lr;
+  }
+}
+
 var {
   font-style: inherit;
 }
