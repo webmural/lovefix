@@ -1,6 +1,5 @@
 html {
-  font-family: monospace;
-  font-size: calc(1ex + 8vmax);
+  font-size: calc(1em + 10vmax);
 }
 
 body {
