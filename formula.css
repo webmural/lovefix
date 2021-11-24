@@ -26,3 +26,7 @@ figure {
 var {
   font-style: inherit;
 }
+
+.flex {
+  display: flex;
+}
